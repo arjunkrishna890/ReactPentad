@@ -1,0 +1,143 @@
+.footer{
+    background-color: #0A2129;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 42rem;
+    display: block;
+  }
+  .footer .listone{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .footer .address{
+    width: 14rem;
+  }
+  .footer .address .addressmain{
+    color: white;
+    font-weight: 200;
+    font-size: .9rem;
+    line-height: 1.6rem;
+   
+  }
+  .footer .address .socialmedia{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .footer .listone .platform{
+    color: white;
+  }
+  .footer .platform{
+    list-style: none;
+    margin-left: 3rem;
+    margin-right: rem;
+    width: 13rem;
+   
+  }
+  .footer .platform li{
+    margin-top: 1rem;
+    font-size: .9rem;
+    font-weight: 200;
+  }
+  .footer .platform li:hover{
+    color: red;
+  }
+  .footer .listtwo{
+    list-style: "| ";
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    position: absolute;
+    padding-top: .5rem;
+    
+    
+  }
+  .footer ul .listtwo{
+    list-style-position: outside;
+   
+  }
+  .footer .listtwo li{
+    margin-left: 1rem;
+  }
+  .footer .listtwo li:hover{
+    color: red;
+  }
+  .footer .flexed{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .footer .heading1{
+    color: white;
+    position:absolute;
+  }
+  .footer .listtwo .nodecor{
+    list-style: none;
+  }
+  .footer .discription{
+    width: 70rem;
+    margin-left: 4rem;
+    color: white;
+    font-size: .8rem;
+    font-weight: lighter;
+    position: relative;
+    margin-top: 5rem;
+  }
+  .button1 {
+    padding: 15px 28px;
+    margin: 10px;
+    background-color:  #e2ddd9;
+    color:black;
+    font-size: .9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:900px) {
+    .footer{
+        overflow: hidden;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer .listone{
+        display: flex !important;
+        flex-direction: column  !important;
+        align-items: center !important;
+      }
+      .discription{
+        display: none;
+      }
+      .footer .listone{
+        
+        margin-left: 0rem !important;
+        justify-content: center !important;
+        margin-top: 0rem !important;
+      }
+      .footer .platform{
+        margin-left: 0rem !important;
+      }
+      .footer .flexed{
+        margin: 0rem !important;
+      }
+      .footer{
+        text-align: center !important;
+      }
+      .footer .listone .platform li{
+        display: none;
+      }
+      .listtwo li{
+        display: none;
+      }
+      .flexed .heading1{
+        display: none;
+      }
+      .address{
+        text-align: center !important;
+      }
+  }

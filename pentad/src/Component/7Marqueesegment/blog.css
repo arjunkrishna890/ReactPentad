@@ -1,0 +1,67 @@
+.blog h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.blogged img{
+    width: 20rem;
+    max-height: 15rem;
+    transition: transform 2s;
+  
+}
+.blogged img:hover{
+    transform: scale(1.1);
+}
+.blogged{
+    width: 20rem;
+}
+.blogged p{
+    color: grey;
+    font-size: .9rem;
+  }
+  .blogged h5{
+    font-size: 1.2rem;
+  }
+  .blogged h6{
+    font-size: 1rem;
+    color: #948e99;
+    font-style: italic;
+    font-weight: 300;
+  }
+  .blogflex{
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 4rem;
+  }
+  .blog{
+    justify-content: center!;
+    align-items: center !important;
+    text-align: center !important;
+    margin-bottom: 2rem;
+  }
+  .button{
+    border:0.14rem solid red;
+    width: 10rem;
+    height: 6rem;
+    background-color: white;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  @media screen and (max-width:900px) {
+    .blog{
+        text-align: center !important;
+        justify-content: center !important;
+        
+    }
+    .blogflex{
+        margin-left: 0 !important;
+        overflow: scroll;
+        overflow-x: scroll;
+    }
+    .blogged{
+        width: 80% !important;
+    }
+  }

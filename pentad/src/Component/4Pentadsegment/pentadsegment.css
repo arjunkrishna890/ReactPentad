@@ -1,0 +1,108 @@
+.pentadmain{
+    margin-left: 5rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+.pentad{
+    display: flex;
+}
+.pentad .pentadleft h2{
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.pentad .pentadleft{
+    width: 30rem;
+    width: 50%;
+}
+.pentad .pentadleft .description{
+    font-size: 1.1rem;
+}
+.pentadleft .content2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.pentad .pentadleft .button{
+    border:0.14rem solid red;
+    width: 40%;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    margin-top: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.pentad .pentadleft .button:hover{
+    color: red;
+    background-color: white;
+}
+ .rupee{
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+ .sign{
+    font-size: 2rem;
+  }
+  .pentadright{
+        margin-left: 6rem;
+        width: 50%;
+  }
+  .rightside1 img{
+    max-width: 2rem;
+  }
+  .pentadright .rightside1{
+    display: flex;
+    margin-top: 2rem;
+  }
+  .pentadright .rightside1 .rightside12{
+    display: block;
+    margin-left: 2rem;
+  }
+  .pentadright .rightside1 .rightside12 p{
+    font-size: 1rem;
+  }
+  @media screen and (max-width : 900px) {
+    .pentadmain{
+        align-items: center !important;
+        margin-right: 0rem !important;
+        margin-left: 0rem !important;
+       
+    }
+    .pentad{
+        display: block !important;
+        text-align: center !important;
+        align-items: center !important;
+        width: fit-content;
+    }
+    .group1,.group2{
+        display: flex;
+
+    }
+    .pentadright{
+        margin: 0rem !important;
+    }
+    .pentad .pentadleft{
+        width: 100% !important;
+    }
+    .pentad .pentadright{
+        width: 100% !important;
+    }
+    .pentadright .rightside1{
+        display: block;
+    }
+    .pentadright .rightside1 .rightside12 p{
+        font-size: .8rem !important;
+    }
+
+  }
+  @media screen and (max-width : 600px){
+    .pentadright .rightside1{
+        display: block !important;
+    }
+    .group1,.group2{
+        display: block;
+
+    }
+  }

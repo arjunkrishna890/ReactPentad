@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4.1rem;
+    margin-right: .6rem;
+}
+ul.navbar1 {
+    display: flex;
+    gap: 2.8rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    align-items: center;
+    
+}
+ul.navbar1 .navbar2{
+list-style: none;
+
+}
+ul.navbar1 .navbar2 a{
+    text-decoration: none;
+    color: #0e1728;
+    font-size: 1.0rem;
+    
+}
+ul.navbar1 .navbar2 a:hover{
+    color: red;
+}
+
+.Buttonpentad{
+    border:0.14rem solid red;
+    width: 7rem;
+    height: 3.2rem;
+    background-color: white;
+    color: red;
+    line-height: 1.2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Buttonpentad:hover{
+    color: white;
+    background-color: red;
+}
+.threebarmenu{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+@media screen  and (min-width :1200px) {
+    .threebarmenu{
+        display: none;
+    }
+    
+}
+@media screen and (max-width : 1200px) {
+    ul.navbar1{
+        display: none;
+    }
+    .navbar{
+       
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        margin: 0rem !important;
+        justify-content: space-between;
+    }
+}

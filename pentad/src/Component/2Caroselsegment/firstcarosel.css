@@ -1,0 +1,203 @@
+
+.caroselcontainer{
+    overflow: hidden;
+    
+}.caroselmain{
+    display: flex;
+    margin-left: 4.1rem;
+    margin-top: 2rem;
+    width: 100%;
+    margin-right: 5rem;
+    padding-left: 2rem;
+}
+.carosel{
+    display: flex;
+    flex: 0 0 100%;
+    animation: carousel-animation 16s infinite;
+    width: 100%;
+}
+
+.carosel1{
+    display: block;
+    width: 25rem; 
+}
+.carosel2 img{
+    width: 40rem;
+    height: 25rem;
+    margin-left: 5rem;
+    animation: reveal-animation 4s infinite;
+}
+.carosel1 h1{
+    font-size: 3.3rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    animation: appear  4s infinite;
+}
+.carosel1 p{
+    color: hsl(216, 19%, 37%);
+    font-weight: 350;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    animation: appear  4s infinite;
+}
+
+.carosel1 h3{
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    animation: appear  4s infinite;
+}
+.carosel button{
+    border:0.14rem solid red;
+    width: 12rem;
+    height: 3.2rem;
+    background-color: red;
+    color: white;
+    line-height: 1.2;
+    animation: appear  4s infinite;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.carosel button:hover{
+    color: red;
+    background-color: white;
+}
+.carosel .future{
+    position: relative;
+    top: 0;
+}
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes reveal-animation {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes carousel-animation {
+    0%, 20% {
+      transform: translateX(0);
+    }
+    25%, 45% {
+      transform: translateX(-100%);
+    }
+    50%, 70% {
+      transform: translateX(-200%);
+    }
+    75%, 95% {
+      transform: translateX(-300%);
+    }
+  }
+@media screen and (max-width : 1200px) {
+    .carosel2 img{
+        width: 30rem !important;
+        height: 20rem;
+        margin-left: 0rem !important;
+    }
+    .carosel1 h1{
+        font-size: 2rem;
+    }
+    .carosel1 p{
+        font-size: .8rem;
+    }
+    .carosel button{
+        width: 8rem;
+        font-size: .5rem;
+        height: 2.2rem;
+    }
+    .carosel2{
+        align-items: center !important;
+    }
+    .caroselmain{
+        margin-left: 0rem !important;
+       }
+       .carosel2{
+        align-items: center !important;
+        margin: 0rem !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    .carosel{
+        flex-direction: column !important;
+      
+        align-items: center !important;
+    }
+    .carosel1{
+        justify-content: center !important;
+        align-items: center !important;
+        
+        margin-left: 0rem !important;
+    }
+    .carosel2 img{
+        margin-left : 0rem !important;
+
+        
+    }
+    .carosel2{
+        order: -1;
+    }
+    .carosel1 h1{
+        
+        text-align: center !important;
+        
+    }
+    .carosel1 h3{
+        
+        text-align: center !important;
+       
+    }
+    .carosel1 p{
+        
+        text-align: center !important;
+        
+    }
+    
+    .carosel button{
+        margin: auto !important ;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:595px) {
+
+    .carosel2 img{
+        
+        width: 100% !important;
+        height: 10rem !important;
+        margin: 0rem !important;
+        
+    }
+    .carosel1 h1{
+        font-size: 1rem;
+        text-align: center !important;
+        width: 80% !important;
+        
+    }
+    .carosel1 h3{
+        font-size: 1rem;
+        text-align: center !important;
+        width: 80% !important;
+    
+    }
+    .carosel1 p{
+        font-size: .8rem ;
+        width: 80% !important;   
+    }
+    .carosel button{
+        width: 20rem;
+        font-size: .5rem;
+        height: 2.2rem;
+    }
+   
+  
+}

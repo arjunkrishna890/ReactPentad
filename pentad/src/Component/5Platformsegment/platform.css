@@ -1,0 +1,128 @@
+.platform1{
+    display: block;
+    text-align: center;
+   
+}
+.container{
+    background-color: #F4F9FB;
+    width: 25rem;
+    padding: 1.5rem;
+}
+.container .conatiner1 .foto{
+    width: 25rem;
+}
+.conatiner1 h5{
+    font-size: 1.4rem;
+}
+.itemcontainer{
+    display: flex;
+    
+}
+.itemcontainer h3{
+    margin-left: 1rem;
+}
+.itemcontainer2{
+    display: flex;
+    gap: 4px;
+    justify-content: space-around;
+}
+.button{
+    border:0.14rem solid red;
+    width: 6rem;
+    max-height: 2.8rem;
+    background-color: white;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
+.outsidecontainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.platformain{
+    margin-left: 5rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width :1200px) {
+    .platformain{
+        margin-right: 0rem !important;
+        margin-top: 0rem !important;
+        margin-left: 0rem !important;
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+    
+    
+    .outsidecontainer{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 2rem;
+        
+    }
+    .container{
+        width: 90% !important;
+        height: 100% !important;
+
+        
+    }
+    .conatiner1 .foto,.speacial{
+            max-width: 60%;
+    }
+    .platformcontainer{
+        text-align: center !important;
+    }
+    .platform{
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .platform1{
+        overflow: hidden !important ;
+        justify-content: center !important;
+        text-align: center !important;
+        margin: auto !important;
+        max-width: 90%;
+    }
+    .itemcontainer{
+        width: 100% !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .QR{
+        display: none;
+    }
+    .conatiner1 h5{
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    .itemcontainer1{
+        text-align: center !important;
+    }
+    .itemcontainer2{
+        display: flex !important;
+        flex-direction: column;
+        gap:2rem;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .logo{
+        order: -1;
+       max-width: 20%;
+    }
+    .button{
+        width: 70% !important;
+        height: 10rem !important;
+    }
+    .platform1 p{
+        font-size: .8rem !important;
+    }
+}

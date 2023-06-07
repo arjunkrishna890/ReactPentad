@@ -1,0 +1,24 @@
+.member{
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center !important;
+}
+.member h1{
+justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.member img{
+    margin-left: 4rem;
+}
+.marquee-content {
+    animation: marquee 4s linear infinite;
+    
+    display: flex;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }

@@ -6,8 +6,8 @@ import Productsegment from '../Component/3Productsegment/productsegment';
 import Pentadsegment from '../Component/4Pentadsegment/pentadsegment';
 import Platform from '../Component/5Platformsegment/platform';
 import Member from '../Component/6Membersegment/membar';
-import Footer from '../Component/7Marqueesegment/blog';
-import Blog from "../Component/8Footersegment/footer";
+import Blog from '../Component/7Marqueesegment/blog';
+import Footer from "../Component/8Footersegment/footer";
 
 function Homepage(){
     return(
